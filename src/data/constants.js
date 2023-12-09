@@ -5,6 +5,7 @@ import {
   Japanese_cuisine,
   Cloud_dick,
   Job_Finding_App,
+  ChatBox,
 } from '../images/index.js';
 
 export const Bio = {
@@ -172,6 +173,26 @@ export const projects = [
     webapp: 'https://tuffstore.netlify.app/',
   },
   {
+    id: 5,
+    title: 'ChatBox',
+    date: 'Sep 2023 - Dec 2023',
+    description:
+      'The live chat application allows you to communicate in chats or groups. Starting from building server-side components with NEXT JS 13, to interacting with the mongodb database with prisma js. And various react libraries, such as react-hook-form, react-hot-toast, react-icons, which helped me in developing a full-fledged application.',
+    image: ChatBox,
+    tags: [
+      'Next.JS 13',
+      'TS',
+      'MongoDB',
+      'axios',
+      'next-auth',
+      'pusher',
+      'react-hook-form',
+    ],
+
+    github: 'https://github.com/zenbogdan17/ChatBox',
+    webapp: 'https://chat-box-sigma-one.vercel.app/',
+  },
+  {
     id: 1,
     title: 'Car Hub',
     date: 'Jun 2023 - Sep 2023',
@@ -216,8 +237,9 @@ export const projects = [
     github: 'https://github.com/zenbogdan17/MERN-CLOUD-DICK-frontEnd',
     webapp: 'https://cloud-dick.netlify.app/',
   },
+
   {
-    id: 5,
+    id: 6,
     title: 'Job Finding App',
     date: 'Jun 2023 - Jul 2023',
     description:
