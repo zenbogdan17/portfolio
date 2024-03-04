@@ -5,6 +5,7 @@ import Japanese_cuisine from './Japanese cuisine.jpg';
 import Cloud_dick from './Cloud_dick.jpg';
 import Job_Finding_App from './Job Finding App.jpg';
 import ChatBox from './ChatBox.jpg';
+import Booking from './Booking.png';
 
 export {
   TURR_SHOP,
@@ -14,4 +15,5 @@ export {
   Cloud_dick,
   Job_Finding_App,
   ChatBox,
+  Booking,
 };
